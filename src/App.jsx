@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import cardFront from "./assets/bg-card-front.png";
+import Component from "./components/Component";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <div>
+        <Component />
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
           <img src={cardFront} alt="" />
