@@ -1,4 +1,4 @@
-import cardFront from "./assets/bg-card-front.png";
+import cardFront from "../components/bg-card-front.png";
 
 export function Component() {
   return (
