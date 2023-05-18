@@ -5,7 +5,7 @@ import cardFront from "./assets/bg-card-front.png";
 import Component from "./components/Component";
 import "./App.css";
 
-function App() {
+export default function App() {
   const [count, setCount] = useState(0);
 
   return (
@@ -35,5 +35,3 @@ function App() {
     </>
   );
 }
-
-export default App;
